@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Admin panel</title>
+
+  <link href="js/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+
+    <div class="bg-dark border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">E-petition </div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action bg-dark">Dashboard</a>
+        <a href="#" class="list-group-item list-group-item-action bg-dark">Activities</a>
+        <a href="#" class="list-group-item list-group-item-action bg-dark">Subscribers</a>
+        <a href="#" class="list-group-item list-group-item-action bg-dark">Contacts</a>
+        <a href="#" class="list-group-item list-group-item-action bg-dark">Logout</a>
+      </div>
+    </div>
+
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom">
+        <button class="btn btn-danger" id="menu-toggle">Toggle Menu</button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Nodar Salukvadze <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container-fluid">
+        <h1 class="mt-4">Text content</h1>
+        <p>Ttext textTtext textTtext textTtext textTtext textTtext textTtext textTtext textTtext textTtext textTtext textTtext textTtext textTtext textTtext textTtext textTtext textTtext textTtext textTtext textTtext textTtext textTtext textTtext textTtext textTtext text </p>
+     
+        <div class="jumbotron"></div>
+        <div class="row">
+          <div class="col-4"><div class="jumbotron"></div></div>
+          <div class="col-4"><div class="jumbotron"></div></div>
+          <div class="col-4"><div class="jumbotron"></div></div>
+        </div>
+        <div class="row">
+          <div class="col-3"><div class="jumbotron"></div></div>
+          <div class="col-3"><div class="jumbotron"></div></div>
+          <div class="col-3"><div class="jumbotron"></div></div>
+          <div class="col-3"><div class="jumbotron"></div></div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <script src="js/jquery/jquery.min.js"></script>
+  <script src="js/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>
