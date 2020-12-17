@@ -23,6 +23,16 @@
   color: #bd2130;
 }
 
+.jumbotron.login {
+	background-color: #fff!important;
+    width: 450px;
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% - 225px);
+    padding: 25px;
+    height: 300px;
+}
+
 .border-right {
   border-right: 1px solid #484848!important;
 }
@@ -56,4 +66,13 @@
   #wrapper.toggled #sidebar-wrapper {
     margin-left: -15rem;
   }
+}
+
+@media (max-width: 449px) {
+	.jumbotron.login {
+		width: calc(100% - 20px);
+		top: calc(50% - 150px);
+		left: 10px;
+		padding: 20px;
+	}
 }
